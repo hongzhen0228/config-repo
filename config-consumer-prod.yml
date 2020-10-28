@@ -2,3 +2,4 @@ info:
   profile: prod
 name: Paul
 words: 'hongzhen0228'
+password: '{cipher}89c80343fe18fa3d2172ac3735ec15e2b010f1e2f8ae195c6f0cb15e4e5ee7c0'
