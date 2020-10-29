@@ -1,0 +1,15 @@
+# 数据库链接
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://172.16.91.128:3306/emall-cloud-user?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC'
+    username: '{cipher}d8222deb4a7695e5144040c8761899483e3046d1072c0880e52aac7fc28f971f'
+    password: '{cipher}0403e4925d7e15cd4ab7b1352c4914d9d32896aa9672da03abd2379c8c820549'
+
+# 功能开关  - 开启/关闭注册功能
+userservice:
+  registration:
+    disabled: true
+
+# actuator
